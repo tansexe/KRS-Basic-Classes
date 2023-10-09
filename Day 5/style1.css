@@ -1,0 +1,79 @@
+body{
+    height: 100vh;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divMain{
+    width: 350px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+label{
+    display: block;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.row{
+    /* background-color: red; */
+    width: 250px;
+    margin-bottom: 10px;
+}
+input,select{
+    width: 100%;
+    padding: 10px;
+}
+
+select{
+    width: 110%;
+}
+
+.radio_option{
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-items: start;
+    padding-top: 8px;
+    padding-left: 10px;
+    gap: 7px;
+}
+.radio_option label,
+.radio_option input{
+    /* background-color: red; */
+    display: inline-block;
+    width: auto;
+}
+
+input[type="submit"]{
+    background-color: #000cdc;
+    border-color: #016bc1;
+    color: #fff;
+    margin-top: 10px;
+    font-size: 110%;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+input[type="submit"]:hover{
+    background-color: #fff;
+    color: #006dcc;
+}
+.error{
+    color: red;;
+    font-size: 90%;
+}

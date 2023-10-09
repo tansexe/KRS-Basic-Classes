@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.outer{
+    background-color: aliceblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form{
+    background-color: white;
+    height:75vh;
+    width:25vw;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+}
+
+.application{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

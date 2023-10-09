@@ -1,0 +1,82 @@
+body {
+  font-size: 16px;
+  background-color: #f9f9f9;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.divMain {
+  width: 350px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px 0px;
+}
+
+h2 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.row {
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+}
+
+.radio_option {
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-top: 8px;
+  padding-left: 10px;
+  gap: 7px;
+}
+
+.radio_option label,
+.radio_option input {
+  display: inline-block;
+  width: auto;
+}
+
+input[type="submit"],
+#Submit {
+  padding: 7px;
+  background-color: #006dcc;
+  border-color: #016bc1;
+  color: #fff;
+  margin-top: 10px;
+  font-size: 110%;
+  font-weight: bold;
+  border-width: 1px;
+  width: 72%;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+#Submit {
+  background-color: #fff;
+  color: #006dcc;
+}
+
+.error {
+  color: red;
+  font-size: 90%;
+}

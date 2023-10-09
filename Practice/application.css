@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    background: aliceblue;
+    display:flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+.application{
+    height: auto;
+    width: auto;
+    background: white;
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    text-decoration: underline;
+    flex-direction: column;
+    
+}
+h1{
+    /* background-color: red; */
+    padding-bottom: 10px;
+}
+
+#fname{
+
+}

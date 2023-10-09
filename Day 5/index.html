@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="divMain">
+        <form name="contactForm" onsubmit="return validSub">
+            <h2>Application Form</h2> 
+            <!-- u tag can also be used. -->
+            <div class="row">
+                <label for="fname">Full Name:</label>
+                <input type="text" name="fname" id="fname"/>
+                <div class="error" id="nameErr"></div>
+            </div>
+            <div class="row">
+                <label for="email">Email Address:</label>
+                <input type="email" name="email" id="email"/>
+                <div class="error" id="emailErr"></div>
+            </div>
+            <div class="row">
+                <label for="mobile">Mobile Number:</label>
+                <input type="text" maxlength="10" name="mobile" id="mobileId"/>
+                <div class="error" id="mobileErr"></div>
+            </div>
+            <div class="row">
+                <label for="country">Country Name:</label>
+                <select name="country" id="countryId">
+                    <option selected hidden value="select">Select</option>
+                    <option value="Australia">Australia</option>
+                    <option value="India">India</option>
+                    <option value="United States">United States</option>
+                    <option value="United Kingdom">United Kingdom</option>
+                </select>
+                <div class="error" id="countryErr"></div>
+            </div>
+            <div class="row">
+                <label for="gender">Gender:</label>
+                <div class="radio_option" name="genderId">
+                    <label> 
+                        <input type="radio" value="male" name="gender" id="genderId" />
+                        Male
+                    </label>
+                    <label> 
+                        <input type="radio" value="female" name="gender" id="genderId"/>
+                        Female
+                    </label>
+                </div>
+                <div class="error" id="genderErr"></div>
+            </div>  
+            <input type="submit" id="submit">
+        </form>   
+    </div> 
+</body>
+<script src="./index.js"></script>
+</html>

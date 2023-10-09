@@ -1,0 +1,9 @@
+.display-inline{
+    display: inline;
+}
+.display-block{
+    display: block;
+}
+.display-hidden{
+    visibility:none;
+}
