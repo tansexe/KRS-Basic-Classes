@@ -1,3 +1,4 @@
+# KRS BASIC CLASSES 2023-24
 ## Description
 This repository stores code from my practice sessions during KIIT Robotics Society's basic classes in the 2023 academic year. It covers the fundamentals of web development, including HTML structure, CSS styling, and JavaScript interactivity.
 
